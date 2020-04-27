@@ -1,6 +1,6 @@
 {
   "port": 5000,
   "jwtSecret": "German Palych MERN app",
-  "mongoUri": "mongodb+srv://shvetsovg:Ko93efjasi55@cluster0-nilca.mongodb.net/test?retryWrites=true&w=majority",
+  "mongoUri": "mongodb+srv://<user>:<password>@<url>/test?retryWrites=true&w=majority",
   "baseUrl": "http://localhost:5000"
 }
