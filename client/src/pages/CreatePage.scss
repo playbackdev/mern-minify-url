@@ -1,0 +1,32 @@
+.CreatePage {
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+  h3 {
+    text-align: center;
+  }
+  form {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: stretch;
+    align-items: baseline;
+    div {
+      flex: 1;
+    }
+    input {
+      color: white;
+    }
+    button {
+      margin-left: 10px;
+    }
+  }
+  span {
+    text-align: center;
+  }
+  span.message.invalid {
+      color: #f44336;
+  }
+  span.message.valid {
+    color: #4CAF50;
+  }
+}

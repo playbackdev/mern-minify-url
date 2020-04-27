@@ -1,0 +1,14 @@
+.DetailPage {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  span {
+    text-align: center;
+  }
+  span.message.invalid {
+    color: #f44336;
+  }
+  span.message.valid {
+    color: #4CAF50;
+  }
+}

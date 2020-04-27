@@ -1,0 +1,26 @@
+.AuthPage {
+  form {
+    padding-top: 10px;
+    input {
+      color: white;
+    }
+    .form-validation-info {
+      color: white;
+    }
+    .form-validation-info.invalid {
+      color: #f44336;
+    }
+    .form-validation-info.valid {
+      color: #4CAF50;
+    }
+  }
+  .card-action {
+    display: flex;
+    justify-content: space-evenly;
+    button:first-child {
+      margin-right: 10px;
+    }
+  }
+}
+
+
